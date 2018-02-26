@@ -1,15 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Hello from '@/components/Hello'
+/*eslint-disable*/
 
-Vue.use(Router)
+import Router from 'vue-router';
+import Auth from '../components/Auth.vue';
+import Chat from '../components/Chat.vue';
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    }
-  ]
-})
+
+const router = new Router({
+    routes: [
+        { path: '/', component: Auth },
+        { path: '/auth', component: Auth },
+        { path: '/chat', component: Chat }
+    ]
+});
+
+export default router;
