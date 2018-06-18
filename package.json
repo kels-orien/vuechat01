@@ -15,12 +15,12 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "firebase": "^4.13.1",
+    "firebase": "^4.3.1",
     "firebaseui": "^2.3.0",
-    "moment": "^2.22.2",
+    "moment": "^2.18.1",
     "vue": "^2.3.3",
     "vue-router": "^2.3.1",
-    "vuefire": "^1.4.5"
+    "vuefire": "^1.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
