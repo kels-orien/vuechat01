@@ -11,28 +11,50 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
+*,
+header span {
+  box-sizing: border-box
+}
+
+*,
+body,
+ul {
+  margin: 0
+}
+
+.btn,
+main {
+  text-align: center
+}
+
+* {
+  padding: 0;
+  font-family: tahoma, san serif
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #2c3e5
 }
 
 main {
-  text-align: center;
-  margin-top: 40px;
+  margin-top: 40px
 }
 
-header {
+.container a {
   margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
+  height: 40px;
+  padding: 10px 16px 0 24px;
+  background-color: #35485E;
+  color: #fff;
+  text-decoration: none
+}
+
+.container a:hover {
+  text-decoration: none;
+  color: #41b883
 }
 
 header span {
@@ -42,12 +64,11 @@ header span {
   line-height: 1;
   letter-spacing: .02em;
   font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
+  padding-top: 16px
 }
 
 body {
-  background: #ffffff
+  background: #ffffff;
 }
 
 ul {
@@ -115,7 +136,7 @@ nav .nav__right {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
-  margin: 0 auto;
+  margin:0  auto;
 }
 
 .form-group {
@@ -269,4 +290,5 @@ nav .nav__right {
 .chat-name {
   margin-left: 70px
 }
+
 </style>
