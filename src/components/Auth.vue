@@ -29,7 +29,7 @@
               <div class="form-group">
                 <button class="btn btn-info btn-block" @click="twitterAuth()"> Login with Twitter</button>
 
-                </a>
+ 
               </div>
             </form>
           </div>
